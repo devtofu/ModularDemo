@@ -1,0 +1,36 @@
+{
+  "name": "TTServices",
+  "version": "0.0.1",
+  "summary": "TTServices.",
+  "description": "- TTServices 0.0.1",
+  "homepage": "https://github.com/devtofu/ModularDemo.git",
+  "license": "MIT",
+  "authors": {
+    "Tofu": ""
+  },
+  "source": {
+    "path": "./"
+  },
+  "source_files": "**/**/*.{h,m,swift}",
+  "exclude_files": "TTServices Example/**/*.*",
+  "public_header_files": "**/**/*.{h}",
+  "resources": "TTServicesResources/**",
+  "frameworks": [
+    "UIKit",
+    "CoreFoundation",
+    "QuartzCore",
+    "Foundation"
+  ],
+  "requires_arc": true,
+  "dependencies": {
+    "TTKit": [
+
+    ]
+  },
+  "platforms": {
+    "osx": null,
+    "ios": null,
+    "tvos": null,
+    "watchos": null
+  }
+}

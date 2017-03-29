@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CCCDE7301E8A54250045F294 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CCCDE72F1E8A54250045F294 /* main.m */; };
+		CCCDE7331E8A54250045F294 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CCCDE7321E8A54250045F294 /* AppDelegate.m */; };
+		CCCDE7361E8A54250045F294 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCCDE7351E8A54250045F294 /* ViewController.m */; };
+		CCCDE7391E8A54250045F294 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCCDE7371E8A54250045F294 /* Main.storyboard */; };
+		CCCDE73B1E8A54250045F294 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCCDE73A1E8A54250045F294 /* Assets.xcassets */; };
+		CCCDE73E1E8A54250045F294 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCCDE73C1E8A54250045F294 /* LaunchScreen.storyboard */; };
+		CCCDE7491E8A54250045F294 /* TTSportTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCCDE7481E8A54250045F294 /* TTSportTests.m */; };
+		CCCDE7581E8A54560045F294 /* TTSportViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCCDE7561E8A54560045F294 /* TTSportViewController.m */; };
+		CCCDE7591E8A54560045F294 /* TTSportViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCCDE7571E8A54560045F294 /* TTSportViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CCCDE7451E8A54250045F294 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCCDE7231E8A54250045F294 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCCDE72A1E8A54250045F294;
+			remoteInfo = TTSport;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CCCDE72B1E8A54250045F294 /* TTSport.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TTSport.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCCDE72F1E8A54250045F294 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CCCDE7311E8A54250045F294 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CCCDE7321E8A54250045F294 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CCCDE7341E8A54250045F294 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CCCDE7351E8A54250045F294 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CCCDE7381E8A54250045F294 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CCCDE73A1E8A54250045F294 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CCCDE73D1E8A54250045F294 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CCCDE73F1E8A54250045F294 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCCDE7441E8A54250045F294 /* TTSportTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TTSportTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCCDE7481E8A54250045F294 /* TTSportTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTSportTests.m; sourceTree = "<group>"; };
+		CCCDE74A1E8A54250045F294 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCCDE7551E8A54560045F294 /* TTSportViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTSportViewController.h; sourceTree = "<group>"; };
+		CCCDE7561E8A54560045F294 /* TTSportViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTSportViewController.m; sourceTree = "<group>"; };
+		CCCDE7571E8A54560045F294 /* TTSportViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TTSportViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCCDE7281E8A54250045F294 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCCDE7411E8A54250045F294 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CCCDE7221E8A54250045F294 = {
+			isa = PBXGroup;
+			children = (
+				CCCDE7531E8A54340045F294 /* ModuleSource */,
+				CCCDE72D1E8A54250045F294 /* TTSport */,
+				CCCDE7471E8A54250045F294 /* TTSportTests */,
+				CCCDE72C1E8A54250045F294 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CCCDE72C1E8A54250045F294 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCCDE72B1E8A54250045F294 /* TTSport.app */,
+				CCCDE7441E8A54250045F294 /* TTSportTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCCDE72D1E8A54250045F294 /* TTSport */ = {
+			isa = PBXGroup;
+			children = (
+				CCCDE7311E8A54250045F294 /* AppDelegate.h */,
+				CCCDE7321E8A54250045F294 /* AppDelegate.m */,
+				CCCDE7341E8A54250045F294 /* ViewController.h */,
+				CCCDE7351E8A54250045F294 /* ViewController.m */,
+				CCCDE7371E8A54250045F294 /* Main.storyboard */,
+				CCCDE73A1E8A54250045F294 /* Assets.xcassets */,
+				CCCDE73C1E8A54250045F294 /* LaunchScreen.storyboard */,
+				CCCDE73F1E8A54250045F294 /* Info.plist */,
+				CCCDE72E1E8A54250045F294 /* Supporting Files */,
+			);
+			path = TTSport;
+			sourceTree = "<group>";
+		};
+		CCCDE72E1E8A54250045F294 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCCDE72F1E8A54250045F294 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CCCDE7471E8A54250045F294 /* TTSportTests */ = {
+			isa = PBXGroup;
+			children = (
+				CCCDE7481E8A54250045F294 /* TTSportTests.m */,
+				CCCDE74A1E8A54250045F294 /* Info.plist */,
+			);
+			path = TTSportTests;
+			sourceTree = "<group>";
+		};
+		CCCDE7531E8A54340045F294 /* ModuleSource */ = {
+			isa = PBXGroup;
+			children = (
+				CCCDE7541E8A54400045F294 /* Controllers */,
+			);
+			path = ModuleSource;
+			sourceTree = "<group>";
+		};
+		CCCDE7541E8A54400045F294 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CCCDE7551E8A54560045F294 /* TTSportViewController.h */,
+				CCCDE7561E8A54560045F294 /* TTSportViewController.m */,
+				CCCDE7571E8A54560045F294 /* TTSportViewController.xib */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCCDE72A1E8A54250045F294 /* TTSport */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCCDE74D1E8A54250045F294 /* Build configuration list for PBXNativeTarget "TTSport" */;
+			buildPhases = (
+				CCCDE7271E8A54250045F294 /* Sources */,
+				CCCDE7281E8A54250045F294 /* Frameworks */,
+				CCCDE7291E8A54250045F294 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TTSport;
+			productName = TTSport;
+			productReference = CCCDE72B1E8A54250045F294 /* TTSport.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CCCDE7431E8A54250045F294 /* TTSportTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCCDE7501E8A54250045F294 /* Build configuration list for PBXNativeTarget "TTSportTests" */;
+			buildPhases = (
+				CCCDE7401E8A54250045F294 /* Sources */,
+				CCCDE7411E8A54250045F294 /* Frameworks */,
+				CCCDE7421E8A54250045F294 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCCDE7461E8A54250045F294 /* PBXTargetDependency */,
+			);
+			name = TTSportTests;
+			productName = TTSportTests;
+			productReference = CCCDE7441E8A54250045F294 /* TTSportTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCCDE7231E8A54250045F294 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Tofu;
+				TargetAttributes = {
+					CCCDE72A1E8A54250045F294 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					CCCDE7431E8A54250045F294 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CCCDE72A1E8A54250045F294;
+					};
+				};
+			};
+			buildConfigurationList = CCCDE7261E8A54250045F294 /* Build configuration list for PBXProject "TTSport" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CCCDE7221E8A54250045F294;
+			productRefGroup = CCCDE72C1E8A54250045F294 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCCDE72A1E8A54250045F294 /* TTSport */,
+				CCCDE7431E8A54250045F294 /* TTSportTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCCDE7291E8A54250045F294 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCCDE73E1E8A54250045F294 /* LaunchScreen.storyboard in Resources */,
+				CCCDE7591E8A54560045F294 /* TTSportViewController.xib in Resources */,
+				CCCDE73B1E8A54250045F294 /* Assets.xcassets in Resources */,
+				CCCDE7391E8A54250045F294 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCCDE7421E8A54250045F294 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCCDE7271E8A54250045F294 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCCDE7361E8A54250045F294 /* ViewController.m in Sources */,
+				CCCDE7581E8A54560045F294 /* TTSportViewController.m in Sources */,
+				CCCDE7331E8A54250045F294 /* AppDelegate.m in Sources */,
+				CCCDE7301E8A54250045F294 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCCDE7401E8A54250045F294 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCCDE7491E8A54250045F294 /* TTSportTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CCCDE7461E8A54250045F294 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCCDE72A1E8A54250045F294 /* TTSport */;
+			targetProxy = CCCDE7451E8A54250045F294 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CCCDE7371E8A54250045F294 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCCDE7381E8A54250045F294 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CCCDE73C1E8A54250045F294 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCCDE73D1E8A54250045F294 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CCCDE74B1E8A54250045F294 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CCCDE74C1E8A54250045F294 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCCDE74E1E8A54250045F294 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TTSport/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tofu.TTSport;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CCCDE74F1E8A54250045F294 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TTSport/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tofu.TTSport;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CCCDE7511E8A54250045F294 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TTSportTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tofu.TTSportTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TTSport.app/TTSport";
+			};
+			name = Debug;
+		};
+		CCCDE7521E8A54250045F294 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TTSportTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tofu.TTSportTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TTSport.app/TTSport";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCCDE7261E8A54250045F294 /* Build configuration list for PBXProject "TTSport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCCDE74B1E8A54250045F294 /* Debug */,
+				CCCDE74C1E8A54250045F294 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCCDE74D1E8A54250045F294 /* Build configuration list for PBXNativeTarget "TTSport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCCDE74E1E8A54250045F294 /* Debug */,
+				CCCDE74F1E8A54250045F294 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CCCDE7501E8A54250045F294 /* Build configuration list for PBXNativeTarget "TTSportTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCCDE7511E8A54250045F294 /* Debug */,
+				CCCDE7521E8A54250045F294 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CCCDE7231E8A54250045F294 /* Project object */;
+}

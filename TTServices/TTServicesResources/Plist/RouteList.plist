@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>RDURLVC</key>
+	<dict>
+		<key>/comments2/:userid/:username</key>
+		<string>RDURLViewController</string>
+	</dict>
+	<key>RDModelVC</key>
+	<dict>
+		<key>/comments1/:userid/:username</key>
+		<string>RDModelViewController</string>
+	</dict>
+	<key>CarVC</key>
+	<dict>
+		<key>/car1//carList/:userid/:username</key>
+		<string>test1ViewController</string>
+		<key>/car2/:userid/:username</key>
+		<string>test2ViewController</string>
+		<key>/car3/:userid/:username</key>
+		<string>test3ViewController</string>
+	</dict>
+</dict>
+</plist>

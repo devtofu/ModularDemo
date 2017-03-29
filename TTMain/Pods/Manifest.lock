@@ -1,0 +1,68 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - HHRouter (0.1.9)
+  - MJRefresh (3.1.12)
+  - NerdyUI (1.1.0):
+    - NerdyUI/Chainable (= 1.1.0)
+    - NerdyUI/Private (= 1.1.0)
+    - NerdyUI/Public (= 1.1.0)
+  - NerdyUI/Chainable (1.1.0):
+    - NerdyUI/Private
+    - NerdyUI/Public
+  - NerdyUI/Private (1.1.0)
+  - NerdyUI/Public (1.1.0):
+    - NerdyUI/Private
+  - SDWebImage (4.0.0):
+    - SDWebImage/Core (= 4.0.0)
+  - SDWebImage/Core (4.0.0)
+  - TTKit (0.0.1):
+    - AFNetworking
+    - HHRouter
+    - MJRefresh
+    - NerdyUI
+    - SDWebImage
+  - TTModules (0.0.1):
+    - TTServices
+  - TTServices (0.0.1):
+    - TTKit
+
+DEPENDENCIES:
+  - TTKit (from `../TTKit`)
+  - TTModules (from `../TTModules`)
+  - TTServices (from `../TTServices`)
+
+EXTERNAL SOURCES:
+  TTKit:
+    :path: "../TTKit"
+  TTModules:
+    :path: "../TTModules"
+  TTServices:
+    :path: "../TTServices"
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  HHRouter: c096524e95a07a1970e6e23a19ee5a9592dc326d
+  MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
+  NerdyUI: cf4bb5e3fc4f588eb02cbd9da5acbbbef43d8cd7
+  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
+  TTKit: c240f316d73696363b77ae243b78216bfa397841
+  TTModules: 0826e49df5471cdf64c3abf3b278000772612d25
+  TTServices: 73e36619cdd9d5c84dc39ce267eb9f82f4ca1c5f
+
+PODFILE CHECKSUM: 37f4c663d0be9c3575f582c676b6e7e3a6be305b
+
+COCOAPODS: 1.2.0

@@ -1,0 +1,32 @@
+{
+  "name": "TTModules",
+  "version": "0.0.1",
+  "summary": "TTModules.",
+  "description": "- TTModules 0.0.1",
+  "homepage": "https://github.com/devtofu/ModularDemo.git",
+  "license": "MIT",
+  "authors": {
+    "Tofu": ""
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "path": "./"
+  },
+  "source_files": "**/ModuleSource/**/*.{h,m,swift}",
+  "public_header_files": "**/ModuleSource/**/*.{h}",
+  "resources": "**/ModuleSource/**/*.{xib,storyboard}",
+  "frameworks": [
+    "UIKit",
+    "CoreFoundation",
+    "QuartzCore",
+    "Foundation"
+  ],
+  "requires_arc": true,
+  "dependencies": {
+    "TTServices": [
+
+    ]
+  }
+}
